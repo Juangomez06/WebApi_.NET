@@ -16,7 +16,7 @@ namespace CursoWebApi.Controllers
         }
 
         [HttpGet("protected")]
-        [Authorize]
+        [Authorize] //Agregamos protección a la ruta 
         
         public ActionResult Get()
         {
